@@ -1,13 +1,13 @@
 * C:\Users\nrmsh\OneDrive\Documents\GitHub\ECE303LAB\Lab 5\prelab.asc
-XU1 N006 N004 Vcc Vee N005 LM741/NS
+XU1 Vout Vz Vcc Vee N004 LM741/NS
 V1 Vcc 0 12
 V2 Vee 0 -12
-Dz 0 N007 D1N5231
-R1 Vcc N007 6.8k
-Q1 N001 N005 N006 0 2N4401
+Dz 0 Vz D1N5231
+R1 Vcc Vz 6.8k
+Q1 N001 N004 Vout 0 2N4401
 R2 Vcc N001 100
-C1 N006 0 100µ
-RL N006 0 {Rload}
+C1 Vout 0 100µ
+RL Vout 0 {Rload}
 C2 N002 N001 10µ
 R3 N003 N002 50
 Vnoise N003 0 0
@@ -23,9 +23,9 @@ Vnoise N003 0 0
 *               Motorola        pid=1N5231      case=DO-35
 *               89-9-18-gjg
 *               Vz = 5.1 @ 20mA, Zz = 175 @ 1mA, Zz = 8.2 @ 5mA, Zz = 2.2 @ 20mA
-* .step dec param Rload 10 100k 20
-* .op
-.tran 2m
-.param Rload=10k
+.step dec param Rload 10 100k 20
+.op
+* .tran 2m
+* .param Rload=10k
 .backanno
 .end

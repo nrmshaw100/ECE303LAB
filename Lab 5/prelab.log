@@ -1,11 +1,11 @@
 LTspice 24.0.12 for Windows
 Circuit: * C:\Users\nrmsh\OneDrive\Documents\GitHub\ECE303LAB\Lab 5\prelab.asc
-Start Time: Wed Mar 26 15:14:38 2025
+Start Time: Wed Mar 26 15:48:00 2025
 solver = Normal
 Maximum thread count: 16
-tnom = 27
-temp = 27
-method = modified trap
+
+
+
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
 Gmin = 10
@@ -22,9 +22,290 @@ Gmin = 2.03704e-09
 Gmin = 2.18725e-10
 Gmin = 2.34854e-11
 Gmin = 2.52173e-12
-Gmin = 2.70769e-13
+vernier = 0.5
+Gmin = 4.23076e-13
+vernier = 0.666667
+Gmin = 1.08623e-13
+vernier = 0.888888
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.173 seconds.
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:u1:1      d:u1:2      d:u1:5      d:u1:6      d:u1:4
+Model:    u1:dx       u1:dx       u1:dx       u1:dx       u1:dx
+Id:     -2.14e-11    1.08e-04    7.62e-05    7.62e-05   -1.81e-13
+Vd:     -2.14e+01    6.57e-01    6.48e-01    6.48e-01   -1.80e-01
+Req:     1.00e+12    2.39e+02    3.39e+02    3.39e+02    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u1:3        dz
+Model:    u1:dx      d1n5231
+Id:     -1.81e-13   -1.03e-03
+Vd:     -1.80e-01   -4.94e+00
+Req:     1.00e+12    1.55e+02
+CAP:     0.00e+00    5.27e-11
+
+                        --- Bipolar Transistors ---
+Name:     q:u1:1      q:u1:2        q1
+Model:     u1:qx       u1:qx      2n4401
+Ib:       1.60e-07   -1.62e-11   -3.41e-11
+Ic:       9.98e-05    1.20e-11    2.31e-11
+Vbe:      7.15e-01   -4.23e+00   -1.10e+01
+Vbc:     -7.01e+00   -1.20e+01   -2.30e+01
+Vce:      7.72e+00    7.77e+00    1.20e+01
+BetaDC:   6.25e+02   -7.40e-01   -6.76e-01
+Gm:       3.86e-03    4.33e-86    0.00e+00
+Rpi:      1.62e+05    1.00e+12    1.00e+12
+Rx:       0.00e+00    0.00e+00    1.00e+01
+Ro:       0.00e+00    0.00e+00    0.00e+00
+Cbe:      0.00e+00    0.00e+00    8.83e-12
+Cbc:      0.00e+00    0.00e+00    3.00e-12
+Cjs:      0.00e+00    0.00e+00    0.00e+00
+BetaAC:   6.25e+02    4.33e-74    0.00e+00
+Cbx:      0.00e+00    0.00e+00    0.00e+00
+Ft:       0.00e+00    0.00e+00    1.35e-02
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tnom = 27
+temp = 27
+method = modified trap
+Total elapsed time: 1.995 seconds.
 
