@@ -1,5 +1,5 @@
 * C:\Users\nrmsh\OneDrive\Documents\GitHub\ECE303LAB\Lab 5\prelab.asc
-XU1 Vout Vz Vcc Vee N004 LM741/NS
+XU1 Vz Vout Vcc Vee N004 LM741/NS
 V1 Vcc 0 12
 V2 Vee 0 -12
 Dz 0 Vz D1N5231
