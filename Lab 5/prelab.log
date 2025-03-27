@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
 Circuit: * C:\Users\nrmsh\OneDrive\Documents\GitHub\ECE303LAB\Lab 5\prelab.asc
-Start Time: Wed Mar 26 16:15:55 2025
+Start Time: Thu Mar 27 15:17:56 2025
 solver = Normal
 Maximum thread count: 16
 
@@ -29,282 +29,70 @@ vernier = 0.000488281
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Semiconductor Device Operating Points:
-                        --- Diodes ---
-Name:    d:u1:1      d:u1:2      d:u1:5      d:u1:6      d:u1:4
-Model:    u1:dx       u1:dx       u1:dx       u1:dx       u1:dx
-Id:      1.08e-04   -2.14e-11   -1.21e-13    2.49e-02   -9.51e-13
-Vd:      6.57e-01   -2.14e+01   -1.20e-01    7.98e-01   -9.50e-01
-Req:     2.39e+02    1.00e+12    1.00e+12    1.04e+00    1.00e+12
-CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+.step rload=20
 
-Name:    d:u1:3        dz
-Model:    u1:dx      d1n5231
-Id:      7.93e-06   -1.03e-03
-Vd:      5.90e-01   -4.94e+00
-Req:     3.26e+03    1.54e+02
-CAP:     0.00e+00    5.27e-11
 
-                        --- Bipolar Transistors ---
-Name:     q:u1:1      q:u1:2        q1
-Model:     u1:qx       u1:qx      2n4401
-Ib:      -1.36e-11    1.60e-07    2.49e-02
-Ic:       1.07e-11    9.98e-05    1.06e-01
-Vbe:     -2.92e+00    7.15e-01    1.02e+00
-Vbc:     -1.07e+01   -7.01e+00    9.09e-01
-Vce:      7.77e+00    7.72e+00    1.13e-01
-BetaDC:  -7.85e-01    6.25e+02    4.25e+00
-Gm:       3.43e-64    3.86e-03    3.55e+00
-Rpi:      1.00e+12    1.62e+05    4.14e+01
-Rx:       0.00e+00    0.00e+00    1.00e+01
-Ro:       0.00e+00    0.00e+00    1.82e+00
-Cbe:      0.00e+00    0.00e+00    1.88e-09
-Cbc:      0.00e+00    0.00e+00    2.20e-07
-Cjs:      0.00e+00    0.00e+00    0.00e+00
-BetaAC:   3.43e-52    6.25e+02    1.47e+02
-Cbx:      0.00e+00    0.00e+00    0.00e+00
-Ft:       0.00e+00    0.00e+00    2.55e+06
 
+.step rload=40
 
 
 
+.step rload=60
 
 
 
+.step rload=80
 
 
 
+.step rload=100
 
 
 
+.step rload=200
 
 
 
+.step rload=500
 
 
 
+.step rload=1000
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.step rload=10000
 tnom = 27
 temp = 27
 method = modified trap
-Total elapsed time: 5.876 seconds.
+.step rload=100000
+
+
+Measurement: vc_result
+  step	PP(v(vc))	FROM	TO
+     1	0.0152416	0	0.00025
+     2	0.0157585	0	0.00025
+     3	2.24651	0	0.00025
+     4	0.676554	0	0.00025
+     5	0.66727	0	0.00025
+     6	0.666792	0	0.00025
+     7	0.666639	0	0.00025
+     8	0.666717	0	0.00025
+     9	0.664879	0	0.00025
+    10	1.37953	0	0.00025
+
+Measurement: vout_result
+  step	PP(v(vout))	FROM	TO
+     1	0.00162269	0	2.5e-05
+     2	0.00161542	0	2.5e-05
+     3	0.00163915	0	2.5e-05
+     4	6.67572e-06	0	2.5e-05
+     5	2.86102e-06	0	2.5e-05
+     6	2.38977e-06	0	2.5e-05
+     7	1.44169e-06	0	2.5e-05
+     8	2.15136e-06	0	2.5e-05
+     9	4.76837e-07	0	2.5e-05
+    10	0	0	2.5e-05
+
+Total elapsed time: 0.925 seconds.
 
