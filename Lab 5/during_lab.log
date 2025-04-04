@@ -1,0 +1,72 @@
+LTspice 24.1.5 for Windows
+Circuit: C:\Users\nrmsh\OneDrive\Documents\GitHub\ECE303LAB\Lab 5\during_lab.net
+Start Time: Thu Apr  3 17:58:42 2025
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+.step amp=0.25
+.step amp=0.5
+.step amp=0.75
+.step amp=1
+.step amp=1.25
+.step amp=1.5
+.step amp=1.75
+.step amp=2
+.step amp=2.25
+.step amp=2.5
+Total elapsed time: 0.924 seconds.
+
+Files loaded:
+C:\Users\nrmsh\OneDrive\Documents\GitHub\ECE303LAB\Lab 5\during_lab.net
+C:\Users\nrmsh\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\nrmsh\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\nrmsh\OneDrive\Documents\GitHub\ECE303LAB\Lab 5\nat_semi-model_lib.lib
+
+
+Measurement: Vc_result
+  step	PP(V(Vc))	FROM	TO
+     1	0.333708763123	0	0.00025
+     2	0.667418479919	0	0.00025
+     3	1.00112819672	0	0.00025
+     4	1.33483791351	0	0.00025
+     5	1.66854953766	0	0.00025
+     6	2.00226020813	0	0.00025
+     7	2.33597183228	0	0.00025
+     8	2.66968250275	0	0.00025
+     9	3.00339412689	0	0.00025
+    10	3.33710193634	0	0.00025
+
+Measurement: Vout_result
+  step	PP(V(Vout))	FROM	TO
+     1	9.59262251854e-07	0	2.5e-05
+     2	2.38418579102e-06	0	2.5e-05
+     3	3.34344804287e-06	0	2.5e-05
+     4	4.29712235928e-06	0	2.5e-05
+     5	5.72763383389e-06	0	2.5e-05
+     6	6.68689608574e-06	0	2.5e-05
+     7	7.64057040215e-06	0	2.5e-05
+     8	9.07108187675e-06	0	2.5e-05
+     9	1.00247561932e-05	0	2.5e-05
+    10	1.05071812868e-05	0	2.5e-05
